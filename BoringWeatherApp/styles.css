@@ -91,3 +91,13 @@ body{ background: #222;
     font-size: 25px;
     margin-top: -10px;
 }
+.weather{
+    display: none;
+}
+
+.error{
+    font-size: 25px;
+    color: red;
+    font-weight: 800;
+    display: none;
+}
