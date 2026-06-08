@@ -8,7 +8,8 @@ body{
     font-family: "Iosevka Charon", monospace;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: #e5e7eb;
+    background: #1d2b4d;
 }
 
 .container{
@@ -20,18 +21,18 @@ body{
 }
 
 .sign-up, .log-in{
-    border: nnone;
+    border: none;
     padding: 40px;
     text-align: center;
 }
 
 .sign-up{
     border-radius: 20px 0 0 20px;
-    background: linear-gradient(to right, green, lightgreen);
+    background: #111827;
 }
 .log-in{
     border-radius: 0 20px 20px 0;
-    background: linear-gradient(to left, blue, lightgreen);
+    background: #111827;
 }
 .form{
     display: flex;
@@ -40,10 +41,12 @@ body{
 img{
     width: 25px;
     height: 25px;
+    margin: 7px;
 }
 
 a{
     text-decoration: none;
+    color: #f59e0b;
 }
 
 button{
@@ -52,15 +55,17 @@ button{
     padding: 10px 20px;
     margin: 5px;
     border-radius: 5px;
+    background: #f59e0b;
 }
 
 label{
     display:block;
-    margin: 10px;
+    margin: 10px 0 5px 0;
 }
 input{
     border: none;
     padding: 7px;
     border-radius: 5px;
     background: white;
+   
 }
